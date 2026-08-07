@@ -21,4 +21,9 @@ public class CvEvaluationController {
 
         return ResponseEntity.ok(cvEvaluationService.evaluate(file));
     }
+
+    @GetMapping("/health")
+    public String health() {
+        return "OK";
+    }
 }
