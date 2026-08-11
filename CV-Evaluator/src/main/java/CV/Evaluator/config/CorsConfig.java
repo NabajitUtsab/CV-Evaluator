@@ -17,7 +17,7 @@ public class CorsConfig implements WebMvcConfigurer {
                         "http://localhost:8080",              // ← Spring Boot itself
                         "http://localhost:63343",             // ← IntelliJ built-in server
                         "http://127.0.0.1:63343",          // ← IntelliJ alternate
-                        "https://nabajitutsab.github.io/CV-Evaluator-Frontend/"
+                        "https://nabajitutsab.github.io"
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
